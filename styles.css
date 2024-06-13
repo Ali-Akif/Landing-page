@@ -1,0 +1,117 @@
+body {
+    font-family: 'Rubik', sans-serif;
+    margin:0;    
+}
+
+
+/* HERO */
+.hero {
+    background-color: #1F2937;
+    font-weight: bold;
+    padding: 0 100px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 70px;
+}
+
+.links ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:  24px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #c1c2c4;
+}
+.headerlogo {
+    font-size: 20px;
+    color: #F9FAF8;
+}
+
+#one {
+    font-size: 36px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.links, .text {
+    font-size: 14px;
+    font-weight: 200;
+    color: #c1c2c4;
+}
+
+.content {
+    display:flex;
+    align-items: center;
+    padding-bottom: 70px;
+    gap: 50px;
+}
+
+.sub-header {
+    align-self: stretch;
+}
+
+img {
+    width: 50%;
+}
+
+#sign-up {
+    border-radius: 10%;
+    background-color: #3882F6 ;
+    padding: 4px 20px;
+    color: white;
+    border: none;
+    margin-top: 8px;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+/* 2nd Bloc */
+
+.title {
+    text-align: center;
+    padding: 34px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 28px;
+    margin-bottom: 100px;
+    
+}
+
+.container img {
+    height: 120px;
+    width: 120px;
+    border-radius: 10%;
+}
+
+.container .text {
+    position: absolute;
+    text-align: center;
+    width: 120px;
+    color: #6b6b6b;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+/* 3rd Bloc */
+
+.testimonial {
+    background-color: grey;
+}
+
+
