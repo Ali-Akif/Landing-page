@@ -52,9 +52,8 @@ a {
 
 .content {
     display:flex;
-    align-items: center;
     padding-bottom: 70px;
-    gap: 50px;
+    gap: 20px;
 }
 
 .sub-header {
@@ -74,6 +73,11 @@ img {
     margin-top: 8px;
     font-weight: 600;
     font-size: 12px;
+}
+
+#sign-up:hover {
+    color: black;
+    cursor:pointer
 }
 
 /* 2nd Bloc */
@@ -111,7 +115,74 @@ img {
 /* 3rd Bloc */
 
 .testimonial {
-    background-color: grey;
+    background-color: #E5E7EB;
+    color: #6b6b6b;
+    padding: 70px 160px;
+    margin-top: 130px;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 100;
 }
 
+.sub-text {
+    text-align: end;
+    font-style: normal;
+    color: #1F2937;
+    font-size: 18px;
+}
 
+/* 4th bloc */
+
+.blue {
+    margin: 50px 100px;
+    padding: 30px 60px;
+    border-radius: 10px;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 120px;
+}
+
+.left {
+    flex-grow: 1;
+}
+
+.right {
+    border-radius: 10%;
+    background-color: #3882F6 ;
+    padding: 4px 20px;
+    color: white;
+    border: 2px solid white;
+    margin-top: 8px;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.big {
+    font-weight: bold;
+    color: white;
+    font-size: 16px;
+}
+
+.blue .text {
+    color: #c7d0df;
+    font-size: 13px;
+}
+
+.right:hover {
+    color: black;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 12px;
+    text-align: center;
+    background-color: #1F2937;
+    color: #c1c2c4;
+    padding: 15px;
+}
