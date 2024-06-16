@@ -1,8 +1,7 @@
 body {
     font-family: 'Rubik', sans-serif;
-    margin:0;    
+    margin: 0;
 }
-
 
 /* HERO */
 .hero {
@@ -20,67 +19,66 @@ body {
 
 .links ul {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap:  24px;
-}
-
-ul {
-    list-style-type: none;
+    gap: 24px;
+    list-style: none;
 }
 
 a {
     text-decoration: none;
     color: #c1c2c4;
 }
+
+.headerlogo, #one, .links, .text, .big {
+    color: #F9FAF8;
+}
+
 .headerlogo {
     font-size: 20px;
-    color: #F9FAF8;
 }
 
 #one {
     font-size: 36px;
     font-weight: bold;
-    color: #F9FAF8;
 }
 
 .links, .text {
     font-size: 14px;
     font-weight: 200;
-    color: #c1c2c4;
 }
 
 .content {
-    display:flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding-bottom: 70px;
-    gap: 20px;
 }
 
 .sub-header {
-    align-self: stretch;
-}
-
-img {
+    flex-grow: 1;
     width: 50%;
 }
 
-#sign-up {
+.image img, .container img {
+    width: 100%;
     border-radius: 10%;
-    background-color: #3882F6 ;
-    padding: 4px 20px;
+}
+
+#sign-up, .right {
+    border-radius: 10%;
+    background-color: #3882F6;
     color: white;
     border: none;
+    padding: 4px 20px;
     margin-top: 8px;
     font-weight: 600;
     font-size: 12px;
+    cursor: pointer;
 }
 
-#sign-up:hover {
+#sign-up:hover, .right:hover {
     color: black;
-    cursor:pointer
+    border: 2px solid black;
 }
-
-/* 2nd Bloc */
 
 .title {
     text-align: center;
@@ -94,13 +92,6 @@ img {
     justify-content: center;
     gap: 28px;
     margin-bottom: 100px;
-    
-}
-
-.container img {
-    height: 120px;
-    width: 120px;
-    border-radius: 10%;
 }
 
 .container .text {
@@ -111,8 +102,6 @@ img {
     font-size: 12px;
     font-weight: 500;
 }
-
-/* 3rd Bloc */
 
 .testimonial {
     background-color: #E5E7EB;
@@ -131,8 +120,6 @@ img {
     font-size: 18px;
 }
 
-/* 4th bloc */
-
 .blue {
     margin: 50px 100px;
     padding: 30px 60px;
@@ -144,36 +131,9 @@ img {
     margin-bottom: 120px;
 }
 
-.left {
-    flex-grow: 1;
-}
-
-.right {
-    border-radius: 10%;
-    background-color: #3882F6 ;
-    padding: 4px 20px;
-    color: white;
-    border: 2px solid white;
-    margin-top: 8px;
-    font-weight: 600;
-    font-size: 12px;
-}
-
-.big {
-    font-weight: bold;
-    color: white;
-    font-size: 16px;
-}
-
 .blue .text {
     color: #c7d0df;
     font-size: 13px;
-}
-
-.right:hover {
-    color: black;
-    border: 2px solid black;
-    cursor: pointer;
 }
 
 .footer {
